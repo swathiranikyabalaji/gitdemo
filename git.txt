@@ -1,0 +1,118 @@
+hiii
+
+ git config --global user.email "swathitilly@gmail"
+  git config --global user.name "swathiranikyabalaji"
+
+
+
+
+C:\Users\This Pc>cd desktop
+
+C:\Users\This Pc\Desktop>demo
+'demo' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\This Pc\Desktop>dir
+ Volume in drive C has no label.
+ Volume Serial Number is AC9C-29F2
+
+ Directory of C:\Users\This Pc\Desktop
+
+03-04-2023  11:32    <DIR>          .
+03-04-2023  11:32    <DIR>          ..
+01-04-2023  17:27    <DIR>          Angular
+31-03-2023  10:43    <DIR>          AngularAssignment
+27-02-2023  15:33    <DIR>          apache-tomcat-9.0.73
+03-04-2023  11:32    <DIR>          demo
+01-04-2023  17:29             3,735 Document.rtf
+23-08-2022  19:26             1,076 EditPlus.lnk
+21-03-2023  09:55        24,477,401 EmployeeCRDU.war
+21-03-2023  10:04            13,607 EmployeeCurd.jar
+21-03-2023  10:05            13,607 EmployeeCurdop.jar
+31-03-2023  15:07    <DIR>          Feuji
+16-03-2023  13:17    <DIR>          Feujiwork
+27-03-2023  10:44    <DIR>          java api
+11-03-2023  23:57    <DIR>          javacode
+27-03-2023  10:52    <DIR>          javaIDE
+27-03-2023  10:55    <DIR>          javaSpring
+09-03-2023  21:50    <DIR>          myfolder
+23-08-2022  03:31             1,068 Nudi 4.0.lnk
+31-03-2023  23:32             2,195 Postman.lnk
+26-03-2023  19:46    <DIR>          spring
+31-03-2023  21:20    <DIR>          SpringMVC
+31-03-2023  10:35    <DIR>          STSIDE
+24-03-2023  19:58    <DIR>          TomCat
+14-03-2023  14:50    <DIR>          ui
+21-02-2023  20:27    <DIR>          UNUSED
+06-03-2023  14:47             1,406 Visual Studio Code.lnk
+               8 File(s)     24,514,095 bytes
+              19 Dir(s)  18,358,095,872 bytes free
+
+C:\Users\This Pc\Desktop>cd demo
+
+C:\Users\This Pc\Desktop\demo>dir
+ Volume in drive C has no label.
+ Volume Serial Number is AC9C-29F2
+
+ Directory of C:\Users\This Pc\Desktop\demo
+
+03-04-2023  11:32    <DIR>          .
+03-04-2023  11:32    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  18,362,224,640 bytes free
+
+C:\Users\This Pc\Desktop\demo>gitinit
+'gitinit' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\This Pc\Desktop\demo>git init
+Initialized empty Git repository in C:/Users/This Pc/Desktop/demo/.git/
+
+C:\Users\This Pc\Desktop\demo>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        text.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\This Pc\Desktop\demo>git add text.txt
+
+C:\Users\This Pc\Desktop\demo>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   text.txt
+
+
+C:\Users\This Pc\Desktop\demo>git commit -m "my first project files"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'This Pc@DESKTOP-GLHUQ4G.(none)')
+
+C:\Users\This Pc\Desktop\demo>git config --global user.email "swathitilly@gmail"
+
+C:\Users\This Pc\Desktop\demo>git config --global user.name "swathiranikyabalaji"
+
+C:\Users\This Pc\Desktop\demo>git commit -m "my first project files"
+[master (root-commit) 5a3dea0] my first project files
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text.txt
+
+C:\Users\This Pc\Desktop\demo>
